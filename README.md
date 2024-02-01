@@ -38,10 +38,10 @@ The parameters of the script are:
 - ``--hidden_dim``: the network's hidden dimension.
 - ``--output_dim``: the network's output dimension.
 - ``--pool``: name of the graph pooling.
--
+
 - ``--seed``: a seed to set random processes.
 - ``--gpu``: the number of the gpu that is used to run the code on.
-- 
+  
 ## Example running
 
 To perform experiments over the LogER dataset with a MEAN_GNN with 3 layers, output dimension of 5 and an input and hidden dimension of 128.  See an example for the use of the following command: 
