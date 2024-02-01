@@ -19,11 +19,3 @@ build-libKeOps*
 #Do not add jupyter notebooks checkpoints
 .ipynb_checkpoints/
 
-#other
-datasets/*
-.idea/*
-
-.neptune/*
-
-*.out
-*.jpg
