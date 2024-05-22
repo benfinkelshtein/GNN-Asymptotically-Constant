@@ -29,10 +29,14 @@ Note that the script should be run with ``.`` as the main directory or source ro
 The parameters of the script are:
 
 - ``--dataset``: name of the dataset.
+The available options are: ER, LogER, InverseER, SBM, BA, Tiger1k, Tiger5k, Tiger10k, Tiger25k and Tiger90k.
+
 - ``--graph_size``: the graph size.
 - ``--num_graph_samples``: the number of different graph size samples taken. 
 - ``--rw_pos_length``: the maximal length of the random walk in the Random Walk Positional Encoding.
-- ``--model_type``: the type of MPNN/Graph Transformer used.
+- ``--model_type``: the type of model that is used.
+The available options are: MEAN_GNN, GCN, GAT and GPS.
+
 - ``--num_layers``: the network's number of layers.
 - ``--in_dim``: the network's input dimension.
 - ``--hidden_dim``: the network's hidden dimension.

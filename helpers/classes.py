@@ -12,7 +12,6 @@ class Pool(Enum):
         an object for the different activation types
     """
     MEAN = auto()
-    SUM = auto()
 
     @staticmethod
     def from_string(s: str):
@@ -24,8 +23,6 @@ class Pool(Enum):
     def forward(self, x: Tensor) -> Tensor:
         if self is Pool.MEAN:
             return torch.mean(x, dim=0)
-        elif self is Pool.SUM:
-            return torch.sum(x, dim=0)
         else:
             raise ValueError(f'Pool {self.name} not supported')
 

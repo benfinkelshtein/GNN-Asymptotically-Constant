@@ -22,6 +22,9 @@ class Experiment(object):
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         set_seed(seed=self.seed)
 
+        # modifications for the tiger dataset
+        self.multi_graph_samples = self.num_graph_samples > 1
+
     def run(self):
         # load model
         model_args = ModelArgs(model_type=self.model_type, num_layers=self.num_layers,
