@@ -1,8 +1,6 @@
 # GNN-Asymptotically-Constant
 
-This repository contains the official code base of the paper **Graph neural network outputs are almost surely asymptotically constant**, based on PyTorch and [PyG].
-
-[PyG]: https://pytorch-geometric.readthedocs.io/en/latest/
+This repository contains the official code base of the paper **[Almost Surely Asymptotically Constant Graph Neural Networks](https://arxiv.org/abs/2403.03880)**.
 
 ## Installation ##
 To reproduce the results please use Python 3.9, PyTorch version 2.0.0, Cuda 11.8, PyG version 2.3.0, and torchmetrics.
